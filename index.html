@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Helianthus</title>
+
+    <!-- load css files -->
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/styles-widerscreen.css">
@@ -33,7 +35,7 @@
                 <p><sup>hover over images to reveal image credit.</sup></p>
             </nav>
         </div>
-
+        <!-- heading section -->
         <header id="top" title="background image credit: Trapani, T., 2020, unnamed, Unsplash, accessed 23rd March, <https://unsplash.com/photos/QldMpmrmWuc>">
             <div class="header-content">
                 <h1>Helianthus</h1>
@@ -45,9 +47,11 @@
             </div>
         </header>
 
-        <div class="sections-wrapper">
+        <div class="sections-wrapper"> <!-- wrapper to separate body sections from header-->
             <img src="./images/section-borders/sunflower chevron borderborder.svg" alt="border of sunflowers"
                 class="header-divider" title="original single sunflower vector image credit: https://hellosvg.com/product/sunflower-monogram-4/. edited into a chain by Rachel Hsia ">
+            
+                <!-- description section -->
             <section id="description" title="background iamge credit: dewdrop157, unsplash, https://pixabay.com/images/id-4866445/">
                 <div id="helianthus-desc-container">
                     <img src="./images/sun.svg" alt="vector graphic of the sun" class="sun">
@@ -57,15 +61,17 @@
                     <div id="taped-paper">
                         <p>The common names "sunflower" and "common sunflower" typically refer to the helianthus annuus, whose round flower heads in combination with the ligules look like the sun.</p>
                             <!-- <p><strong><em>fun fact about the helianthus</em></strong><br>hover over me to find out!</p> -->
-                        <img src="./images/taped-paper.png">
+                        <img src="./images/taped-paper.png" alt="image of crumpled paper texture with jagged edges and taped paper appearance. background image to text to appear like teh text is written on a scrap of paper taped to the page">
                     </div>
                 </div>
             </section>
-            <img src="./images/section-borders/long sf chain.png" class="section-divider">
-
+            
+            <img src="./images/section-borders/long sf chain.png" alt='chain of sunflowers image to separate sections' class="section-divider">
+            
+            <!-- heliotropism -->
             <section id="heliotropism" title="background original image credit: Trapani, T., 2020, unnamed, Unsplash, accessed 23rd March, <https://unsplash.com/photos/QldMpmrmWuc>">
                 <h2>heliotropism: <wbr>facing the sun</h2>
-                <!-- https://jsfiddle.net/alnitak/5vp0syn5/ -->
+                <!-- div for sunflower images -->
                 <div id="helio-sunflowers-container" data-carousel-images title="image credit: the8monkey, https://www.123rf.com/photo_125835130_vector-sunflower-plant-growth-stages-concept-abstract-flower-symbols-isolated-on-white-background-su.html">
                     <img 
                         class="helio-sunflowers" 
@@ -85,12 +91,16 @@
                         alt="vector flower of fully bloomed sunflower"
                     >
                 </div>
+                <!-- div for grouping items that will be on top of the dirt background -->
                 <div id="helio-text-container">
-                    <div id="helio-indicator-dots" data-carousel-indicator>
+                    <!-- div for grouping slider indicator dots to indicate the active slide, data attributes for ease of element selection  -->
+                    <div id="helio-indicator-dots" >
+                        <!-- circle icons from font awesome -->
                         <svg class="carousel-indicator-dots" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-active><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"/></svg>
                         <svg class="carousel-indicator-dots" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"/></svg>
                         <svg class="carousel-indicator-dots" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"/></svg>
                     </div>
+
                     <button id="helio-prev-btn" class="helio-button" data-carousel-button="prev"><</button>
                     <p class="helio-text" data-active >Before blooming, sunflower plants tilt during the day to face the sun in order to gain more sunlight for
                         photosynthesis
@@ -106,9 +116,10 @@
                     <button id="helio-next-btn" class="helio-button" data-carousel-button="next">></button>
                 </div>
             </section>
-            <img src="./images/section-borders/long sf chain.png" alt="" class="section-divider">
+            <img src="./images/section-borders/long sf chain.png" alt="chain of sunflowers image to separate sections" class="section-divider">
             <section id="ecology" title="background original image credit: Trapani, T., 2020, unnamed, Unsplash, accessed 23rd March, <https://unsplash.com/photos/QldMpmrmWuc>">
                 <h2>ecology</h2>
+                <!-- div to group and layout grid items -->
                 <div class="grid-wrapper">
                     <img src="./images/ecology-icons/flowerBeeecologyIcon.svg" alt="vector graphic of sunflower and bee" title="created by Rachel Hsia in Figma">
                     <p>Sunflowers have been proven to be excellent plants to attract beneficial insects, including
@@ -124,10 +135,10 @@
                     </p>
             </div>
             </section>
-            <img src="./images/section-borders/long sf chain.png" alt="" class="section-divider">
+            <img src="./images/section-borders/long sf chain.png" alt="chain of sunflowers image to separate sections" class="section-divider">
             <section id="morphology">
                 <h2>morphology</h2>
-                
+                <!-- div to group and layout grid items -->
                 <div class="grid-wrapper">
                     <img 
                         class="morphology-bg" 
@@ -135,6 +146,8 @@
                         alt="sunflower image that has ragged edges like paper, and decorative scrap booking tape at the edges"
                         title="original image credit: Andrey, M., 2018, selective focus photography of yellow petaled flower photo, Unsplash, accessed 23rd March, <https://unsplash.com/photos/A_D10XO24FE>"
                     >
+
+                    <!-- divs to group the card and text, text kept in a separate p tag so that it can be hidden via display none -->
                     <div class="card right-aligned" id="terminal-capitula" title="original iamge credit: Grabowska, K., 2020, Macro Photography of a Sunflower, Pexels, accessed 23rd March, <https://www.pexels.com/photo/macro-photography-of-a-sunflower-4622893/>">
                         <p>
                             The plants bear one or more wide, <em>terminal capitula</em> (flower heads made up of many tiny
@@ -161,8 +174,8 @@
                     
                 </div>
             </section>
-            
-            <img src="./images/section-borders/long sf chain.png" alt="" class="section-divider">
+            <!-- footer with link back to top -->
+            <img src="./images/section-borders/long sf chain.png" alt="chain of sunflowers image to separate sections" class="section-divider">
             <footer>
                 <a id="back-to-top">back to top</a>
             </footer>
