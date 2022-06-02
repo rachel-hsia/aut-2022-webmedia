@@ -420,7 +420,7 @@ section#ecology {
 }
 
 footer {
-  background-image: url("/images/backgrounds/dirt-bg.png");
+  background-image: url("../images/backgrounds/dirt-bg.png");
   background-size: cover;
   padding: 50px;
   margin: -7% auto 0 auto;
