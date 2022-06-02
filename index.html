@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- page meta data -->
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Wikipedia article on Helianthus species redesigned in a more visually appealing multi-page website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Helianthus</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/styles-widerscreen.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="nav-container">
+            <input type="checkbox" name="nav-toggle" id="nav-toggle">
+            <nav>
+                <label for="nav-toggle">
+                    <img id="nav-icon" src="./images/icons/sunflower.svg" alt="sunflower vector image as table of contents menu button" title="image credit: UXWing, https://uxwing.com/sunflower-icon/. image edit (added exit icon) by Rachel Hsia">
+                </label>
+                <h3>table of contents</h3>
+                <ul id="navlinks">
+                    <li><a id="scroll-to-top">top</a></li>
+                    <li><a id="scroll-to-description">description</a></li>
+                    <li><a id="scroll-to-heliotropism">heliotropism</a></li>
+                    <li><a id="scroll-to-ecology">ecology</a></li>
+                    <li><a id="scroll-to-morphology">morphology</a></li>
+                </ul>
+                <p><sup>hover over images to reveal image credit.</sup></p>
+            </nav>
+        </div>
+
+        <header id="top" title="background image credit: Trapani, T., 2020, unnamed, Unsplash, accessed 23rd March, <https://unsplash.com/photos/QldMpmrmWuc>">
+            <div class="header-content">
+                <h1>Helianthus</h1>
+                <p class="subheading">
+                    <a href="https://en.wikipedia.org/wiki/Helianthus" id="article-link" target="_blank">
+                        https://en.wikipedia.org/wiki/Helianthus
+                    </a>
+                </p>
+            </div>
+        </header>
+
+        <div class="sections-wrapper">
+            <img src="./images/section-borders/sunflower chevron borderborder.svg" alt="border of sunflowers"
+                class="header-divider" title="original single sunflower vector image credit: https://hellosvg.com/product/sunflower-monogram-4/. edited into a chain by Rachel Hsia ">
+            <section id="description" title="background iamge credit: dewdrop157, unsplash, https://pixabay.com/images/id-4866445/">
+                <div id="helianthus-desc-container">
+                    <img src="./images/sun.svg" alt="vector graphic of the sun" class="sun">
+                    <p id="helianthus-desc-text">
+                        <span class="helianthus-highlight highlight">Helianthus</span> is a genus comprising about <span id="animated-number" data-target="70">0</span> species of annual and perennial flowering plants in the daisy family <span class="asteraceae-highlight highlight">Asteraceae</span>
+                    </p>
+                    <div id="taped-paper">
+                        <p>The common names "sunflower" and "common sunflower" typically refer to the helianthus annuus, whose round flower heads in combination with the ligules look like the sun.</p>
+                            <!-- <p><strong><em>fun fact about the helianthus</em></strong><br>hover over me to find out!</p> -->
+                        <img src="./images/taped-paper.png">
+                    </div>
+                </div>
+            </section>
+            <img src="./images/section-borders/long sf chain.png" class="section-divider">
+
+            <section id="heliotropism" title="background original image credit: Trapani, T., 2020, unnamed, Unsplash, accessed 23rd March, <https://unsplash.com/photos/QldMpmrmWuc>">
+                <h2>heliotropism: <wbr>facing the sun</h2>
+                <!-- https://jsfiddle.net/alnitak/5vp0syn5/ -->
+                <div id="helio-sunflowers-container" data-carousel-images title="image credit: the8monkey, https://www.123rf.com/photo_125835130_vector-sunflower-plant-growth-stages-concept-abstract-flower-symbols-isolated-on-white-background-su.html">
+                    <img 
+                        class="helio-sunflowers" 
+                        src="./images/facing-the-sun/sunflowerseedling.png" 
+                        alt="vector graphic of sunflower seedling"  
+                        title="image credit"
+                        data-active
+                    >
+                    <img 
+                        class="helio-sunflowers" 
+                        src="./images/facing-the-sun/bloomingsunflower.png" 
+                        alt="vector graphic of sunflower blooming"
+                    >
+                    <img 
+                        class="helio-sunflowers" 
+                        src="./images/facing-the-sun/fullybloomedsunflower.png" 
+                        alt="vector flower of fully bloomed sunflower"
+                    >
+                </div>
+                <div id="helio-text-container">
+                    <div id="helio-indicator-dots" data-carousel-indicator>
+                        <svg class="carousel-indicator-dots" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-active><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"/></svg>
+                        <svg class="carousel-indicator-dots" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"/></svg>
+                        <svg class="carousel-indicator-dots" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256z"/></svg>
+                    </div>
+                    <button id="helio-prev-btn" class="helio-button" data-carousel-button="prev"><</button>
+                    <p class="helio-text" data-active >Before blooming, sunflower plants tilt during the day to face the sun in order to gain more sunlight for
+                        photosynthesis
+                    </p>
+                    <p class="helio-text">
+                        This heliotropism continues for a short time when the plant blooms, young sunflower heads tracking
+                        of the sun. This is thought to help attract pollinators, as many are more attracted to warm flowers
+                    </p>
+                    <p class="helio-text">
+                        By the time they are mature, though, sunflowers generally stop moving to remain facing east which
+                        lets them be warmed by the rising sun.
+                    </p>
+                    <button id="helio-next-btn" class="helio-button" data-carousel-button="next">></button>
+                </div>
+            </section>
+            <img src="./images/section-borders/long sf chain.png" alt="" class="section-divider">
+            <section id="ecology" title="background original image credit: Trapani, T., 2020, unnamed, Unsplash, accessed 23rd March, <https://unsplash.com/photos/QldMpmrmWuc>">
+                <h2>ecology</h2>
+                <div class="grid-wrapper">
+                    <img src="./images/ecology-icons/flowerBeeecologyIcon.svg" alt="vector graphic of sunflower and bee" title="created by Rachel Hsia in Figma">
+                    <p>Sunflowers have been proven to be excellent plants to attract beneficial insects, including
+                        pollinators.
+                    </p>
+                    <img src="./images/ecology-icons/wheatSparkleecologyIcon.svg" alt="vector graphic of wheat crops with sparkles" title="created by Rachel Hsia in Figma">
+                    <p>Helianthus spp. are a nectar producing flowering plant that attract pollinators and parasitoids which
+                        reduce the pest populations in nearby crop vegetation. 
+                    </p>
+                    <img src="./images/ecology-icons/beeAndLadyBugecologyIcon.svg" alt="vector graphic of bee and ladybird" title="created by Rachel Hsia in Figma">
+                    <p>Sunflowers attract different beneficial pollinators (e.g., honey bees) and other known insect prey to
+                        feed on and control the population of parasitic pests that could be harmful to the crops.
+                    </p>
+            </div>
+            </section>
+            <img src="./images/section-borders/long sf chain.png" alt="" class="section-divider">
+            <section id="morphology">
+                <h2>morphology</h2>
+                
+                <div class="grid-wrapper">
+                    <img 
+                        class="morphology-bg" 
+                        src="./images/morphology/morphology-background.png" 
+                        alt="sunflower image that has ragged edges like paper, and decorative scrap booking tape at the edges"
+                        title="original image credit: Andrey, M., 2018, selective focus photography of yellow petaled flower photo, Unsplash, accessed 23rd March, <https://unsplash.com/photos/A_D10XO24FE>"
+                    >
+                    <div class="card right-aligned" id="terminal-capitula" title="original iamge credit: Grabowska, K., 2020, Macro Photography of a Sunflower, Pexels, accessed 23rd March, <https://www.pexels.com/photo/macro-photography-of-a-sunflower-4622893/>">
+                        <p>
+                            The plants bear one or more wide, <em>terminal capitula</em> (flower heads made up of many tiny
+                            flowers), with bright yellow <em>ray florets</em> (mini flowers inside a flower head) at the outside and
+                            yellow or maroon (also known as a brown/red) <em>disc florets</em> inside.
+                        </p>
+                    </div>
+                    <div class="card" id="height" title="original image credit: Barton, M., 2021, yellow sunflower in bloom in day time photo, Unsplash, accessed 23rd March, <https://unsplash.com/photos/cYlfggjLpRo>">
+                        <p>
+                            Sunflowers are usually tall annual or perennial plants that in some species can grow to a height of <em>300cm (120 in) or more</em>.
+                        </p>
+                    </div>
+                    <div class="card right-aligned" id="tiny-flowers" title="original image credit: Alexas_Fotos, https://unsplash.com/photos/Vk5v2p7cAek"><p>
+                        Each "flower" is actually a disc made up of tiny flowers, to form
+                            a larger false flower to better <em>attract pollinators
+                    </p></em>
+                    </div>
+                    <div class="card" id="coloured-sunflowers" title="image credit: bones64, https://pixabay.com/images/id-2760577/"><p>
+                        While the majority of sunflowers are yellow, there are branching varieties in other
+                            colours including, <em>orange, red and purple</em>.
+                    </p> </div>
+                    <div class="card right-aligned" id="larvae-food" title="image credit: Starzshine, https://pixabay.com/images/id-3722910/"><p>Helianthus species are used as food plants by the <em>larvae of many lepidopterans</em>. </p></div>
+                    <div class="card" id="human-food" title="original image credit: engin akyurt, 2021, HD photo, Unsplash, accessed 23rd March, <https://unsplash.com/photos/Xku7nuvaM4A>"><p>The <em>seeds</em> of H. annuus are used as human food.</p></div>
+                    
+                </div>
+            </section>
+            
+            <img src="./images/section-borders/long sf chain.png" alt="" class="section-divider">
+            <footer>
+                <a id="back-to-top">back to top</a>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
